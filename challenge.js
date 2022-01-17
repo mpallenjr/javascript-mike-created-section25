@@ -125,13 +125,21 @@ if (markBmi > johnBmi) {
 // const koalasScoreGameOne = 88;
 // const koalasScoreGameTwo = 91;
 // const koalasScoreGameThree = 110;
+// const dolphinsScoreGameOne = 97;
+// const dolphinsScoreGameTwo = 112;
+// const dolphinsScoreGameThree = 101;
+
+// const koalasScoreGameOne =109;
+// const koalasScoreGameTwo =95;
+// const koalasScoreGameThree = 123;
 const dolphinsScoreGameOne = 97;
 const dolphinsScoreGameTwo = 112;
 const dolphinsScoreGameThree = 101;
 
 const koalasScoreGameOne =109;
 const koalasScoreGameTwo =95;
-const koalasScoreGameThree = 123;
+const koalasScoreGameThree = 106;
+
 
 
 
@@ -147,9 +155,14 @@ if(dolphinsAverageScore > koalasAverageScore) {
 
   console.log('The Dolphins take home the trophy!')
 
-} else if(dolphinsAverageScore === koalasAverageScore) {
+} else if(dolphinsAverageScore === koalasAverageScore && !dolphinsAverageScore < 100 && !koalasAverageScore < 100) {
 
   console.log("It's a draw! Nobody wins...")
+
+} else if(dolphinsAverageScore < 100 && koalasAverageScore < 100) {
+
+  console.log('Nobody wins because you scored too little')
+
 
 } else {
 
