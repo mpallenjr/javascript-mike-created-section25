@@ -96,7 +96,7 @@ if (markBmi > johnBmi) {
 }
 */
 
-
+/*
 // Coding Challenge #3
 // There are two gymnastics teams, Dolphins and Koalas. They compete against each
 // other 3 times. The winner with the highest average score wins a trophy!
@@ -125,6 +125,7 @@ if (markBmi > johnBmi) {
 // const koalasScoreGameOne = 88;
 // const koalasScoreGameTwo = 91;
 // const koalasScoreGameThree = 110;
+
 // const dolphinsScoreGameOne = 97;
 // const dolphinsScoreGameTwo = 112;
 // const dolphinsScoreGameThree = 101;
@@ -132,6 +133,7 @@ if (markBmi > johnBmi) {
 // const koalasScoreGameOne =109;
 // const koalasScoreGameTwo =95;
 // const koalasScoreGameThree = 123;
+
 const dolphinsScoreGameOne = 97;
 const dolphinsScoreGameTwo = 112;
 const dolphinsScoreGameThree = 101;
@@ -139,9 +141,6 @@ const dolphinsScoreGameThree = 101;
 const koalasScoreGameOne =109;
 const koalasScoreGameTwo =95;
 const koalasScoreGameThree = 106;
-
-
-
 
 const dolphinsAverageScore = (dolphinsScoreGameOne + dolphinsScoreGameTwo + dolphinsScoreGameThree) / 3;
 
@@ -169,3 +168,4 @@ if(dolphinsAverageScore > koalasAverageScore) {
   console.log('The Koalas win the trophy!') 
 
 }
+*/
